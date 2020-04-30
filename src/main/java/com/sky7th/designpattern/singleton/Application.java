@@ -1,7 +1,7 @@
-package com.sky7th.designpattern.factorymethod;
+package com.sky7th.designpattern.singleton;
 
-import com.sky7th.designpattern.factorymethod.printer.Printer;
-import com.sky7th.designpattern.factorymethod.printer.PrinterEnum;
+import com.sky7th.designpattern.singleton.printer.Printer;
+import com.sky7th.designpattern.singleton.printer.PrinterEnum;
 
 public class Application {
 

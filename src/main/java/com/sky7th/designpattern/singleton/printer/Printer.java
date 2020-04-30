@@ -1,4 +1,4 @@
-package com.sky7th.designpattern.factorymethod.printer;
+package com.sky7th.designpattern.singleton.printer;
 
 public class Printer {
 
