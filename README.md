@@ -19,31 +19,43 @@
 
 ---
 
-## Creational Pattern
-### Singleton
+# Creational Pattern
+## Singleton
 전역 변수를 사용하지 않고 객체를 하나만 생성 하도록 하며, 생성된 객체를 어디에서든지 참조할 수 있도록 하는 패턴
 
-#### [예제](.src/java/com/sky7th/designpattern/singleton) 요구사항
+[예제](.src/java/com/sky7th/designpattern/singleton) 요구사항
 - 프린터 객체를 하나만 생성해서 전역에서 공유
 
+## Factory Method
+객체 생성 처리를 서브 클래스로 분리 해 처리하도록 캡슐화하는 패턴
 
-## Structural Pattern
+구조와 구현의 분리
+
+[예제](.src/java/com/sky7th/designpattern/factorymethod) 요구사항
+- 주어진 기능을 실제로 제공하는 적절한 클래스 생성 작업을 별도의 클래스/메서드로 분리시켜야 한다.
+- 2가지 방식으로 구현해보기
+  - 전략 패턴 + 싱글톤 패턴
+  - 전략 패턴 + 싱글톤 패턴 + 템플릿 메서드 패턴
 
 
-## Behavioral Pattern
-### Template Method
+# Structural Pattern
+...
+
+# Behavioral Pattern
+
+## Template Method
 공통적인 프로세스를 묶어 주기 !
 
 어떤 작업을 처리하는 일부분을 서브 클래스로 캡슐화해 전체 일을 수행하는 구조는 바꾸지 않으면서 특정 단계에서 수행하는 내역을 바꾸는 패턴
 
-#### [예제](.src/java/com/sky7th/designpattern/templatemethod) 요구사항
+[예제](.src/java/com/sky7th/designpattern/templatemethod) 요구사항
 - 엘레베이터 모터 종류마다 고유의 작동 방식이 존재함
 
-### Strategy
+## Strategy
 행위를 클래스로 캡슐화해 동적으로 행위를 자유롭게 바꿀 수 있게 해주는 패턴
 
 전략을 쉽게 바꿀 수 있도록 해주는 디자인 패턴이다.
 > 전략이란, 어떤 목적을 달성하기 위해 일을 수행하는 방식, 비즈니스 규칙, 문제를 해결하는 알고리즘 등
 
-#### [예제](.src/java/com/sky7th/designpattern/strategy) 요구사항
+[예제](.src/java/com/sky7th/designpattern/strategy) 요구사항
 - 새로운 기능의 추가(새로운 이동, 공격 기능)가 기존의 코드에 영향을 미치지 못하게 해야함
