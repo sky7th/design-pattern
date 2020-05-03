@@ -37,9 +37,24 @@
   - 전략 패턴 + 싱글톤 패턴
   - 전략 패턴 + 싱글톤 패턴 + 템플릿 메서드 패턴
 
+## Abstract Factory
+구체적인 클래스에 의존하지 않고 서로 연관되거나 의존적인 객체들의 조합을 만드는 인터페이스를 제공하는 패턴
+
+객체 생성의 가상화
+
+[예제](.src/java/com/sky7th/designpattern/abstractfactory) 요구사항
+- 엘리베이터 부품 업체 변경하기
+- 여러 제조 업체의 부품을 사용하더라도 같은 동작을 지원하게 한다.
+- 코드의 변경을 최소화 한다.
 
 # Structural Pattern
-...
+## Decorator
+객체의 결합 을 통해 기능을 동적으로 유연하게 확장 할 수 있게 해주는 패턴
+
+동적으로 책임을 추가
+
+[예제](.src/java/com/sky7th/designpattern/decorator) 요구사항
+- 기본 도로 표시 기능에 차선 표시, 교통량 표시의 2가지 추가 기능이 있을 때 추가 기능의 모든 조합은 4가지가 된다.
 
 # Behavioral Pattern
 

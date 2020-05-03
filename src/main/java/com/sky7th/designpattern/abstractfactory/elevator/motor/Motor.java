@@ -1,7 +1,7 @@
-package com.sky7th.designpattern.templatemethod.domain.motor;
+package com.sky7th.designpattern.abstractfactory.elevator.motor;
 
-import com.sky7th.designpattern.templatemethod.domain.door.Door;
-import com.sky7th.designpattern.templatemethod.domain.door.DoorStatus;
+import com.sky7th.designpattern.abstractfactory.elevator.door.Door;
+import com.sky7th.designpattern.abstractfactory.elevator.door.DoorStatus;
 
 public abstract class Motor {
 
@@ -10,9 +10,12 @@ public abstract class Motor {
     private double speed;
     private double temperature;
 
-    Motor(Door door) {
-        this.door = door;
+    Motor() {
         stop();
+    }
+
+    public void setDoor(Door door) {
+        this.door = door;
     }
 
     public MotorStatus getMotorStatus() {
