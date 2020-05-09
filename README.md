@@ -56,6 +56,15 @@
 [예제](.src/java/com/sky7th/designpattern/decorator) 요구사항
 - 기본 도로 표시 기능에 차선 표시, 교통량 표시의 2가지 추가 기능이 있을 때 추가 기능의 모든 조합은 4가지가 된다.
 
+## Composite
+여러 개의 객체들로 구성된 복합 객체와 단일 객체를 클라이언트에서 구별 없이 다루게 해주는 패턴
+
+전체-부분의 관계(Ex. Directory-File)를 갖는 객체들 사이의 관계를 정의할 때 유용하다.
+
+[예제](.src/java/com/sky7th/designpattern/composite) 요구사항
+- 컴퓨터에 추가 장치 지원하기
+- 클라이언트는 전체와 부분을 구분하지 않고 동일한 인터페이스 를 사용할 수 있다.
+
 # Behavioral Pattern
 
 ## Template Method
@@ -92,4 +101,4 @@
 명령을 객체화한다.
 
 [예제](.src/java/com/sky7th/designpattern/command) 요구사항
--실행될 기능의 변경에도 호출자 클래스를 수정 없이 그대로 사용 할 수 있다.
+- 실행될 기능의 변경에도 호출자 클래스를 수정 없이 그대로 사용 할 수 있다.
