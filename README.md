@@ -23,7 +23,7 @@
 ## Singleton
 전역 변수를 사용하지 않고 객체를 하나만 생성 하도록 하며, 생성된 객체를 어디에서든지 참조할 수 있도록 하는 패턴
 
-[예제](.src/java/com/sky7th/designpattern/singleton) 요구사항
+[예제](./src/java/com/sky7th/designpattern/singleton) 요구사항
 - 프린터 객체를 하나만 생성해서 전역에서 공유
 
 ## Factory Method
@@ -31,7 +31,7 @@
 
 구조와 구현의 분리
 
-[예제](.src/java/com/sky7th/designpattern/factorymethod) 요구사항
+[예제](./src/java/com/sky7th/designpattern/factorymethod) 요구사항
 - 주어진 기능을 실제로 제공하는 적절한 클래스 생성 작업을 별도의 클래스/메서드로 분리시켜야 한다.
 - 2가지 방식으로 구현해보기
   - 전략 패턴 + 싱글톤 패턴
@@ -42,7 +42,7 @@
 
 객체 생성의 가상화
 
-[예제](.src/java/com/sky7th/designpattern/abstractfactory) 요구사항
+[예제](./src/java/com/sky7th/designpattern/abstractfactory) 요구사항
 - 엘리베이터 부품 업체 변경하기
 - 여러 제조 업체의 부품을 사용하더라도 같은 동작을 지원하게 한다.
 - 코드의 변경을 최소화 한다.
@@ -53,7 +53,7 @@
 
 동적으로 책임을 추가
 
-[예제](.src/java/com/sky7th/designpattern/decorator) 요구사항
+[예제](./src/java/com/sky7th/designpattern/decorator) 요구사항
 - 기본 도로 표시 기능에 차선 표시, 교통량 표시의 2가지 추가 기능이 있을 때 추가 기능의 모든 조합은 4가지가 된다.
 
 ## Composite
@@ -61,7 +61,7 @@
 
 전체-부분의 관계(Ex. Directory-File)를 갖는 객체들 사이의 관계를 정의할 때 유용하다.
 
-[예제](.src/java/com/sky7th/designpattern/composite) 요구사항
+[예제](./src/java/com/sky7th/designpattern/composite) 요구사항
 - 컴퓨터에 추가 장치 지원하기
 - 클라이언트는 전체와 부분을 구분하지 않고 동일한 인터페이스 를 사용할 수 있다.
 
@@ -72,7 +72,7 @@
 
 어떤 작업을 처리하는 일부분을 서브 클래스로 캡슐화해 전체 일을 수행하는 구조는 바꾸지 않으면서 특정 단계에서 수행하는 내역을 바꾸는 패턴
 
-[예제](.src/java/com/sky7th/designpattern/templatemethod) 요구사항
+[예제](./src/java/com/sky7th/designpattern/templatemethod) 요구사항
 - 엘레베이터 모터 종류마다 고유의 작동 방식이 존재함
 
 ## Strategy
@@ -81,7 +81,7 @@
 전략을 쉽게 바꿀 수 있도록 해주는 디자인 패턴이다.
 > 전략이란, 어떤 목적을 달성하기 위해 일을 수행하는 방식, 비즈니스 규칙, 문제를 해결하는 알고리즘 등
 
-[예제](.src/java/com/sky7th/designpattern/strategy) 요구사항
+[예제](./src/java/com/sky7th/designpattern/strategy) 요구사항
 - 새로운 기능의 추가(새로운 이동, 공격 기능)가 기존의 코드에 영향을 미치지 못하게 해야함
 
 ## Observer
@@ -91,7 +91,7 @@
 
 이벤트 발생 후 객체 외부에서 처리하는 방식
 
-[예제](.src/java/com/sky7th/designpattern/observer) 요구사항
+[예제](./src/java/com/sky7th/designpattern/observer) 요구사항
 - 여러 가지 방식으로 성적 출력하기
 - 통보 대상 클래스나 대상 객체의 변경에도 통보하는 클래스를 수정 없이 그대로 사용할 수 있다.
 
@@ -100,5 +100,5 @@
 
 명령을 객체화한다.
 
-[예제](.src/java/com/sky7th/designpattern/command) 요구사항
+[예제](./src/java/com/sky7th/designpattern/command) 요구사항
 - 실행될 기능의 변경에도 호출자 클래스를 수정 없이 그대로 사용 할 수 있다.
